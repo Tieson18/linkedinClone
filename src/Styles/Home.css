@@ -1,0 +1,332 @@
+.home__section {
+    min-height: 50px;
+    box-sizing: content-box;
+    text-align: center;
+    text-decoration: underline;
+    justify-content: center;
+}
+
+.home__section a {
+    color: #0a66c2 !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* <------LeftSide-----> */
+
+.left__container {
+    a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 1);
+        font-size: 12px;
+    }
+}
+
+.left__card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+
+.left__card a:nth-child(2) {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 600;
+}
+
+.left__card a:nth-child(3) {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #0a66c2;
+    font-weight: 400;
+}
+
+.left__photo {
+    background: white;
+    padding: 20px;
+    border: 2px solid white;
+    margin: -65px auto 5px;
+    border-radius: 50%;
+}
+
+.left__widget1 {
+    padding: 12px 0 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+    button {
+        border-radius: 0;
+        width: 100%;
+        justify-content: space-between;
+        text-transform: none;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.08);
+        }
+
+        div {
+            text-align: left;
+
+            span:nth-child(1) {
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.6);
+            }
+
+            span:last-child {
+                /* font-size: 12px; */
+                color: rgba(0, 0, 0, 1);
+            }
+        }
+    }
+}
+
+.left__widget2 {
+    button {
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 0;
+        width: 100%;
+        padding: 10px;
+        justify-content: start;
+        text-transform: none;
+        color: rgba(0, 0, 0, 1);
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.08);
+        }
+
+        a {
+            text-transform: none;
+            padding-left: 7px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+    }
+}
+
+.left__widget3 {
+    display: flex;
+    flex-direction: column;
+
+    a {
+
+        &:hover {
+            color: #0a66c2;
+        }
+    }
+
+    a:nth-child(2) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+.css-46bh2p-MuiCardContent-root {
+    padding-bottom: 10px !important;
+}
+
+/* <------RightSide-----> */
+
+.right__head {
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+
+    h6 {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.right__content {
+    font-size: 14px;
+
+    button {
+        color: rgba(0, 0, 0, 0.6);
+        text-transform: none;
+        border-radius: 16px;
+        font-weight: 600;
+        padding: 16px;
+        max-height: 32px;
+        max-width: 480px;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+    }
+
+    img {
+        height: 14px;
+    }
+
+    span {
+        font-size: 14px;
+        color: #0a66c2;
+    }
+}
+
+/* <------Main-----> */
+.main__container {
+    button {
+        text-transform: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.main__header {
+    flex-direction: row !important;
+
+    button {
+        color: rgba(0, 0, 0, 1);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        justify-content: start;
+        border-radius: 2rem;
+        margin-left: 10px;
+        flex-grow: 1;
+    }
+}
+
+.main__buttons {
+    flex-direction: row !important;
+    justify-content: space-around;
+
+    button {
+        color: #70b5f9;
+        min-height: 48px;
+
+        p {
+            /* font-size: 14px; */
+            font-weight: 600;
+
+        }
+    }
+
+    img {
+        /* height: 20px; */
+        margin-right: 4px;
+    }
+}
+
+.main__actor {
+    a {
+        display: flex;
+        gap: 10px;
+
+        span {
+            &:first-child {
+                font-size: 14px;
+                font-weight: 700;
+                color: rgba(0, 0, 0, 1);
+            }
+
+            &:nth-child(n+1) {
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.6);
+            }
+        }
+    }
+
+    button {
+        position: absolute;
+        right: 12px;
+        top: 0;
+    }
+
+    h6 {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+}
+
+.main__post {
+    flex-direction: row !important;
+    align-items: center;
+    font-size: 14px;
+
+    button {
+        font-size: 14px;
+
+        img {
+            height: 14px;
+        }
+    }
+}
+
+.social__action {
+    flex-direction: row !important;
+    justify-content: space-around;
+
+    button {
+        gap: 5px;
+        color: #0a66c2;
+    }
+}
+
+/* <------PostModel-----> */
+.post__header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+    >div {
+        flex-direction: row !important;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.6);
+        font-weight: 400;
+    }
+}
+
+.post__user {
+    flex-direction: row !important;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    gap: 5px;
+}
+
+.post__creation {
+    flex-direction: row !important;
+    gap: 8px;
+
+    div {
+        padding-right: 8px;
+        border-right: 1px solid rgba(0, 0, 0, 0.15);
+    }
+
+    button {
+        height: 40px;
+        min-width: auto;
+        text-transform: none;
+        color: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+.post__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    >button {
+        text-transform: none;
+        border-radius: 20px;
+
+        &:hover {
+            background: #004182;
+        }
+    }
+}
+
+.post__input {
+    min-height: 150px !important;
+    resize: none !important;
+    font-size: 16px;
+}
+
+/* .post__upload {} */

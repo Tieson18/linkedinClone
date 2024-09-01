@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif !important;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+:root,
+body,
+html {
+  background-color: #f5f5f5;
+  --primaryColor: #0a66c2;
+}

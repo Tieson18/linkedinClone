@@ -1,0 +1,93 @@
+.header__section {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    left: 0;
+    padding: 0 24px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 100;
+}
+
+.header__container {
+    display: flex !important;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 1128px;
+}
+
+.search__container {
+    opacity: 1;
+    flex-grow: 1;
+    position: relative;
+}
+
+.input__bar {
+    border: none;
+    box-shadow: none;
+    background-color: #eef3f8;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.9);
+    width: 218px;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    border-color: #dce6f1;
+    vertical-align: text-top;
+    /* padding: 0 8px 0 40px; */
+    /* line-height: 1.75; */
+}
+
+.nav__links {
+    flex-direction: row !important;
+    /* margin-left: auto; */
+    /* display: block; */
+    /* border: 1px solid red; */
+
+    a {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        background: transparent;
+        font-weight: 400;
+        justify-content: center;
+        line-height: 1.5;
+        text-decoration: none;
+        min-height: 42px;
+        /* min-width: 80px; */
+        position: relative;
+        color: rgba(0, 0, 0, 0.6);
+
+        &:hover,
+        &:active {
+            color: rgba(0, 0, 0, 0.9);
+        }
+    }
+
+    .active::after {
+        left: 0;
+        bottom: 0;
+        content: "";
+        width: 100%;
+        position: absolute;
+        transform: scaleX(2.5);
+        border-bottom: 2px solid #fff;
+        border-color: rgba(0, 0, 0, 0.9);
+        transition: transform 0.2s ease-in-out;
+        /* height: 2px;
+        background-color: #0a66c2; */
+    }
+}
+
+
+.sign__out {
+    text-transform: none !important;
+    font-size: 12px !important;
+    color: #0a66c2 !important;
+    background: white !important;
+    height: 30px;
+    width: 100px;
+    transition-duration: 167ms;
+}
